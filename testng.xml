@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test All">
+
+
+
+    <test name="Sort cars">
+        <classes>
+            <class name="SortTest">
+                <methods>
+                    <include name="sortCars"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+</suite>
