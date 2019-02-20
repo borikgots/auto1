@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test All]" guice-stage="DEVELOPMENT" verbose="0">
+  <test name="Sort cars(failed)">
+    <classes>
+      <class name="SortTest">
+        <methods>
+          <include name="setup"/>
+          <include name="sortCars"/>
+        </methods>
+      </class> <!-- SortTest -->
+    </classes>
+  </test> <!-- Sort cars(failed) -->
+</suite> <!-- Failed suite [Test All] -->
