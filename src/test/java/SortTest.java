@@ -40,4 +40,15 @@ public class SortTest {
         }
 
 
+        @Test
+        public void cleanTest(){
+
+            System.out.print("console");
+            
+        }
+
+
+
+
+
 }
