@@ -36,6 +36,7 @@ public class SortTest {
             searchPage.applySortByFilter("Höchster Preis");
             searchPage.verifyInSearchAllCarsFromYear(2015);
             searchPage.verifyCarPriceSortedByDesc();
+            System.out.println("done");
 
         }
 
